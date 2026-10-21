@@ -1,0 +1,186 @@
+[
+  {
+    "id": "DEV-001", "categoria": "politicas",
+    "pregunta": "¿Cuál es el plazo para devolver un producto?",
+    "variantes": ["¿Hasta cuándo puedo devolver lo que compré?", "¿Cuántos días tengo para hacer una devolución?", "Quiero devolver un producto que compré"],
+    "palabras_clave": ["devolución", "plazo", "7 días"],
+    "respuesta": "Puedes devolver un producto dentro de los 7 días calendario posteriores a la compra, siempre que esté sin uso, con su empaque original, accesorios completos y la factura.",
+    "fuente": "documentos/01_politicas_devoluciones_garantias.md#1-devoluciones"
+  },
+  {
+    "id": "DEV-002", "categoria": "politicas",
+    "pregunta": "¿Cómo me reembolsan el dinero de una devolución?",
+    "variantes": ["¿Cuándo me devuelven mi dinero?", "¿En cuánto tiempo recibo el reembolso?", "¿Por qué medio se hace el reembolso?"],
+    "palabras_clave": ["reembolso", "dinero", "medio de pago", "5 días hábiles"],
+    "respuesta": "El reembolso se realiza por el mismo medio de pago que usaste en la compra, en un plazo de hasta 5 días hábiles después de aprobada la devolución.",
+    "fuente": "documentos/01_politicas_devoluciones_garantias.md#1-devoluciones"
+  },
+  {
+    "id": "DEV-003", "categoria": "politicas",
+    "pregunta": "¿Qué productos no aceptan devolución?",
+    "variantes": ["¿Hay productos que no se pueden devolver?", "¿Puedo devolver una afeitadora abierta?", "¿Se pueden devolver tarjetas de regalo?"],
+    "palabras_clave": ["excepciones", "higiene personal", "software", "tarjeta de regalo"],
+    "respuesta": "No se aceptan devoluciones de productos de higiene personal (afeitadoras, secadoras de cabello) una vez abiertos, ni de software o tarjetas de regalo.",
+    "fuente": "documentos/01_politicas_devoluciones_garantias.md#1-devoluciones"
+  },
+  {
+    "id": "CAM-001", "categoria": "politicas",
+    "pregunta": "¿Puedo cambiar un producto por otro modelo o color?",
+    "variantes": ["¿Cuánto tiempo tengo para hacer un cambio?", "Quiero cambiar mi compra por otro color", "¿Aceptan cambios de producto?"],
+    "palabras_clave": ["cambio", "modelo", "color", "talla", "15 días", "nota de crédito"],
+    "respuesta": "Sí. Los cambios por talla, color o modelo se aceptan dentro de los 15 días calendario, según disponibilidad de stock. Si el nuevo producto cuesta más pagas la diferencia; si cuesta menos, se emite una nota de crédito.",
+    "fuente": "documentos/01_politicas_devoluciones_garantias.md#2-cambios"
+  },
+  {
+    "id": "GAR-001", "categoria": "politicas",
+    "pregunta": "¿Cuánto dura la garantía de los productos?",
+    "variantes": ["¿Qué garantía tiene un refrigerador?", "¿Cuántos meses de garantía tiene un celular?", "¿Las laptops tienen garantía?"],
+    "palabras_clave": ["garantía", "meses", "electrodomésticos", "celulares", "laptops"],
+    "respuesta": "Los electrodomésticos tienen 12 meses de garantía del fabricante. Los celulares, laptops y tablets tienen 6 meses de garantía.",
+    "fuente": "documentos/01_politicas_devoluciones_garantias.md#3-garantia"
+  },
+  {
+    "id": "GAR-002", "categoria": "politicas",
+    "pregunta": "¿Qué cubre y qué no cubre la garantía?",
+    "variantes": ["¿La garantía cubre si se me cayó el celular?", "¿La garantía cubre daños por agua o humedad?", "¿Qué daños no están cubiertos por la garantía?"],
+    "palabras_clave": ["cobertura", "defectos de fabricación", "golpes", "humedad", "sobrecarga"],
+    "respuesta": "La garantía cubre defectos de fabricación. No cubre daños por golpes, humedad, sobrecargas eléctricas ni manipulación por terceros.",
+    "fuente": "documentos/01_politicas_devoluciones_garantias.md#3-garantia"
+  },
+  {
+    "id": "GAR-003", "categoria": "procedimientos",
+    "pregunta": "¿Cómo hago válida la garantía?",
+    "variantes": ["¿Dónde llevo mi producto en garantía?", "Mi lavadora falló, ¿cómo uso la garantía?", "¿Dónde está el servicio técnico?"],
+    "palabras_clave": ["servicio técnico", "diagnóstico", "Cristo Redentor", "reparación"],
+    "respuesta": "Presenta la factura y el producto en el Centro de Servicio Técnico (Av. Cristo Redentor N.º 1450, 4.º anillo). El diagnóstico técnico toma de 3 a 5 días hábiles.",
+    "fuente": "documentos/01_politicas_devoluciones_garantias.md#3-garantia"
+  },
+  {
+    "id": "GAR-004", "categoria": "productos",
+    "pregunta": "¿Venden garantía extendida?",
+    "variantes": ["¿Puedo ampliar la garantía?", "¿Cuánto cuesta la garantía extendida?"],
+    "palabras_clave": ["garantía extendida", "10 %", "12 meses adicionales"],
+    "respuesta": "Sí. Puedes contratar 12 meses adicionales de garantía extendida por el 10 % del precio del producto, solo al momento de la compra.",
+    "fuente": "documentos/01_politicas_devoluciones_garantias.md#3-garantia"
+  },
+  {
+    "id": "HOR-001", "categoria": "horarios",
+    "pregunta": "¿Cuál es el horario de atención de las tiendas?",
+    "variantes": ["¿A qué hora abren?", "¿Hasta qué hora atienden entre semana?", "¿Abren los sábados?", "¿Atienden los domingos?"],
+    "palabras_clave": ["horario", "lunes a viernes", "sábado", "domingo"],
+    "respuesta": "Lunes a viernes de 08:30 a 20:00 (horario continuo); sábados de 09:00 a 18:00; domingos de 10:00 a 14:00, solo en la sucursal Ventura Mall.",
+    "fuente": "documentos/02_horarios_sucursales_contacto.md#1-horarios-de-atencion-en-tiendas"
+  },
+  {
+    "id": "HOR-002", "categoria": "horarios",
+    "pregunta": "¿Atienden en feriados?",
+    "variantes": ["¿Abren en días feriados?", "¿Está abierto el feriado nacional?"],
+    "palabras_clave": ["feriado", "cerrado"],
+    "respuesta": "Los feriados nacionales las tiendas permanecen cerradas, salvo que se anuncie lo contrario en nuestras redes sociales.",
+    "fuente": "documentos/02_horarios_sucursales_contacto.md#1-horarios-de-atencion-en-tiendas"
+  },
+  {
+    "id": "SUC-001", "categoria": "horarios",
+    "pregunta": "¿Dónde están ubicadas las sucursales?",
+    "variantes": ["¿Cuál es la dirección de la tienda?", "¿Tienen tienda en Equipetrol?", "¿Dónde queda la casa matriz?"],
+    "palabras_clave": ["sucursales", "dirección", "Equipetrol", "Ventura Mall", "Centro"],
+    "respuesta": "Casa matriz – Centro: calle 24 de Septiembre N.º 210. Equipetrol: Av. San Martín N.º 850. Ventura Mall: 4.º anillo, Av. San Martín, planta alta. El Centro de Servicio Técnico (Av. Cristo Redentor N.º 1450) solo atiende reparaciones y garantías.",
+    "fuente": "documentos/02_horarios_sucursales_contacto.md#2-sucursales"
+  },
+  {
+    "id": "SUC-002", "categoria": "horarios",
+    "pregunta": "¿Tienen estacionamiento para clientes?",
+    "variantes": ["¿Dónde puedo estacionar?", "¿El parqueo es gratis?"],
+    "palabras_clave": ["estacionamiento", "parqueo", "gratuito"],
+    "respuesta": "Sí. Las sucursales Equipetrol y Ventura Mall tienen estacionamiento gratuito para clientes durante 2 horas.",
+    "fuente": "documentos/02_horarios_sucursales_contacto.md#4-estacionamiento"
+  },
+  {
+    "id": "CON-001", "categoria": "horarios",
+    "pregunta": "¿Cómo me comunico con atención al cliente?",
+    "variantes": ["¿Cuál es el número de WhatsApp?", "¿Tienen correo electrónico de contacto?", "¿Hay una línea gratuita?"],
+    "palabras_clave": ["contacto", "WhatsApp", "correo", "línea gratuita", "24 horas"],
+    "respuesta": "WhatsApp +591 70000000 (lunes a sábado de 08:00 a 21:00), correo atencion@tecnohogar.example o la línea gratuita 800-10-0000. Respondemos por WhatsApp y correo en un máximo de 24 horas hábiles.",
+    "fuente": "documentos/02_horarios_sucursales_contacto.md#3-canales-de-contacto"
+  },
+  {
+    "id": "PRE-001", "categoria": "productos",
+    "pregunta": "¿Los precios incluyen impuestos?",
+    "variantes": ["¿Los precios tienen IVA incluido?", "¿En qué moneda están los precios?", "¿El precio en línea es el mismo que en tienda?"],
+    "palabras_clave": ["precio", "impuestos", "IVA", "bolivianos"],
+    "respuesta": "Sí. Todos los precios están en bolivianos (Bs) e incluyen impuestos (IVA). Los precios en línea y en sucursales son iguales, salvo promociones marcadas como 'solo online'.",
+    "fuente": "documentos/03_productos_precios_pagos.md#2-precios"
+  },
+  {
+    "id": "PAG-001", "categoria": "productos",
+    "pregunta": "¿Qué medios de pago aceptan?",
+    "variantes": ["¿Puedo pagar con QR?", "¿Aceptan tarjeta de crédito?", "¿Aceptan cheques o criptomonedas?", "¿Cómo puedo pagar?"],
+    "palabras_clave": ["pago", "efectivo", "Visa", "Mastercard", "QR", "transferencia"],
+    "respuesta": "Aceptamos efectivo (solo en sucursales), tarjetas de débito y crédito Visa y Mastercard, pago con código QR de cualquier banco boliviano y transferencia bancaria para empresas con cotización previa. No aceptamos cheques ni criptomonedas.",
+    "fuente": "documentos/03_productos_precios_pagos.md#3-medios-de-pago-aceptados"
+  },
+  {
+    "id": "PAG-002", "categoria": "productos",
+    "pregunta": "¿Puedo pagar en cuotas sin intereses?",
+    "variantes": ["¿Tienen financiamiento o crédito?", "¿Venden a crédito?", "¿Qué necesito para el crédito directo?"],
+    "palabras_clave": ["cuotas", "sin intereses", "crédito directo", "1.500"],
+    "respuesta": "Con tarjetas de crédito de bancos aliados puedes pagar en 3, 6 o 12 cuotas sin intereses en compras mayores a Bs 1.500. El crédito directo de TecnoHogar requiere carnet de identidad, factura de luz y una boleta de pago reciente; la aprobación tarda 48 horas.",
+    "fuente": "documentos/03_productos_precios_pagos.md#4-compras-en-cuotas"
+  },
+  {
+    "id": "FAC-001", "categoria": "productos",
+    "pregunta": "¿Cómo solicito mi factura?",
+    "variantes": ["¿Emiten factura con NIT?", "¿Pueden corregir mi factura?", "¿Dónde recibo la factura electrónica?"],
+    "palabras_clave": ["factura electrónica", "NIT", "carnet", "anulación"],
+    "respuesta": "Emitimos factura electrónica con el NIT o carnet que indiques al pagar, y se envía a tu correo registrado. No se modifican facturas emitidas, salvo anulación dentro del mismo mes.",
+    "fuente": "documentos/03_productos_precios_pagos.md#5-facturacion"
+  },
+  {
+    "id": "ENV-001", "categoria": "procedimientos",
+    "pregunta": "¿Cuánto cuesta el envío a domicilio y cuánto tarda?",
+    "variantes": ["¿Hacen delivery en Santa Cruz?", "¿El envío es gratis?", "¿En cuántos días llega mi pedido?"],
+    "palabras_clave": ["envío", "domicilio", "gratis", "Bs 500", "24 a 48 horas"],
+    "respuesta": "Dentro de Santa Cruz de la Sierra el envío es gratuito en compras mayores a Bs 500; en compras menores cuesta Bs 30. La entrega tarda de 24 a 48 horas.",
+    "fuente": "documentos/04_procedimientos_envios_pedidos_reclamos.md#1-envios-a-domicilio"
+  },
+  {
+    "id": "ENV-002", "categoria": "procedimientos",
+    "pregunta": "¿Hacen envíos a otros departamentos o al exterior?",
+    "variantes": ["¿Envían a La Paz o Cochabamba?", "¿Hacen envíos internacionales?", "¿Envían al interior del país?"],
+    "palabras_clave": ["departamentos", "encomienda", "internacional", "interior"],
+    "respuesta": "Sí enviamos a otros departamentos de Bolivia por empresa de encomiendas (costo según peso, de 3 a 5 días hábiles). No realizamos envíos internacionales.",
+    "fuente": "documentos/04_procedimientos_envios_pedidos_reclamos.md#1-envios-a-domicilio"
+  },
+  {
+    "id": "PED-001", "categoria": "procedimientos",
+    "pregunta": "¿Cómo hago seguimiento de mi pedido?",
+    "variantes": ["¿Dónde veo el estado de mi pedido?", "¿Cómo rastreo mi compra en línea?", "¿Qué es el código de pedido?"],
+    "palabras_clave": ["seguimiento", "estado", "código de pedido", "TH-000000"],
+    "respuesta": "Al confirmar tu compra en línea recibes un código de pedido (formato TH-000000) en tu correo. Consulta el estado por WhatsApp indicando ese código.",
+    "fuente": "documentos/04_procedimientos_envios_pedidos_reclamos.md#2-seguimiento-de-pedidos"
+  },
+  {
+    "id": "PED-002", "categoria": "procedimientos",
+    "pregunta": "¿Puedo cancelar mi pedido?",
+    "variantes": ["Quiero anular mi compra en línea", "¿Cancelar un pedido tiene costo?"],
+    "palabras_clave": ["cancelación", "anular", "despachado"],
+    "respuesta": "Puedes cancelar un pedido en línea sin costo antes de que sea despachado. Si ya fue despachado, se aplica la política de devoluciones.",
+    "fuente": "documentos/04_procedimientos_envios_pedidos_reclamos.md#3-cancelacion-de-pedidos"
+  },
+  {
+    "id": "PED-003", "categoria": "procedimientos",
+    "pregunta": "¿Puedo recoger mi pedido en la tienda?",
+    "variantes": ["¿Cuándo puedo pasar a recoger mi compra?", "¿Qué necesito para recoger mi pedido?", "¿Cuántos días guardan mi pedido?"],
+    "palabras_clave": ["recojo", "retiro", "tienda", "2 horas", "5 días"],
+    "respuesta": "Sí. Puedes recoger tu pedido en cualquier sucursal desde 2 horas después de la confirmación, presentando carnet de identidad y código de pedido. Se reserva por 5 días calendario; luego se cancela y se reembolsa.",
+    "fuente": "documentos/04_procedimientos_envios_pedidos_reclamos.md#4-recojo-en-tienda"
+  },
+  {
+    "id": "REC-001", "categoria": "procedimientos",
+    "pregunta": "¿Cómo presento un reclamo?",
+    "variantes": ["Quiero poner una queja", "¿Dónde está el libro de reclamaciones?", "¿Cuánto tardan en responder un reclamo?"],
+    "palabras_clave": ["reclamo", "queja", "libro de reclamaciones", "5 días hábiles"],
+    "respuesta": "Registra tu reclamo en el Libro de Reclamaciones de cualquier sucursal o por correo a atencion@tecnohogar.example. Se te asigna un número de reclamo y respondemos en un máximo de 5 días hábiles.",
+    "fuente": "documentos/04_procedimientos_envios_pedidos_reclamos.md#5-reclamos"
+  }
+]

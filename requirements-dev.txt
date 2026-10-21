@@ -1,0 +1,6 @@
+# Solo para desarrollo y pruebas locales. La Lambda NO necesita dependencias:
+# usa la biblioteca estándar de Python y boto3 (incluido en el runtime).
+boto3>=1.34
+moto[dynamodb,s3]>=5.0
+pytest>=8.0
+matplotlib>=3.8   # solo para regenerar docs/arquitectura.png

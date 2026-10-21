@@ -1,0 +1,32 @@
+{
+  "descripcion": "Casos de la prueba de aceptación. 'esperado_id' indica la entrada de la base que debe responder; null significa que la documentación NO contiene la respuesta y el asistente debe reconocerlo.",
+  "casos": [
+    {"id": "A01", "tipo": "con_respuesta", "pregunta": "Compré una licuadora hace 3 días, ¿todavía la puedo devolver?", "esperado_id": "DEV-001"},
+    {"id": "A02", "tipo": "con_respuesta", "pregunta": "¿en cuanto tiempo me reembolsan la plata?", "esperado_id": "DEV-002"},
+    {"id": "A03", "tipo": "con_respuesta", "pregunta": "¿Cuántos meses de garantía tiene una laptop?", "esperado_id": "GAR-001"},
+    {"id": "A04", "tipo": "con_respuesta", "pregunta": "Se me mojó el celular, ¿lo cubre la garantía?", "esperado_id": "GAR-002"},
+    {"id": "A05", "tipo": "con_respuesta", "pregunta": "¿A qué hora cierran los sábados?", "esperado_id": "HOR-001"},
+    {"id": "A06", "tipo": "con_respuesta", "pregunta": "¿Cuál es la dirección de la sucursal de Equipetrol?", "esperado_id": "SUC-001"},
+    {"id": "A07", "tipo": "con_respuesta", "pregunta": "¿Aceptan pagos con QR?", "esperado_id": "PAG-001"},
+    {"id": "A08", "tipo": "con_respuesta", "pregunta": "¿Puedo comprar una lavadora en 12 cuotas sin interes?", "esperado_id": "PAG-002"},
+    {"id": "A09", "tipo": "con_respuesta", "pregunta": "¿El delivery es gratis dentro de Santa Cruz?", "esperado_id": "ENV-001"},
+    {"id": "A10", "tipo": "con_respuesta", "pregunta": "¿Mandan productos a Cochabamba?", "esperado_id": "ENV-002"},
+    {"id": "A11", "tipo": "con_respuesta", "pregunta": "¿Como presento una queja por mal servicio?", "esperado_id": "REC-001"},
+    {"id": "A12", "tipo": "con_respuesta", "pregunta": "Necesito la factura con mi NIT", "esperado_id": "FAC-001"},
+    {"id": "A13", "tipo": "con_respuesta", "pregunta": "¿Cual es el numero de whatsapp de atencion?", "esperado_id": "CON-001"},
+    {"id": "A14", "tipo": "con_respuesta", "pregunta": "garantia extendida cuanto cuesta", "esperado_id": "GAR-004"},
+    {"id": "B01", "tipo": "sin_respuesta", "pregunta": "¿Tienen vacantes de trabajo disponibles?", "esperado_id": null},
+    {"id": "B02", "tipo": "sin_respuesta", "pregunta": "¿Venden repuestos para motocicletas?", "esperado_id": null},
+    {"id": "B03", "tipo": "sin_respuesta", "pregunta": "¿Quién ganó el partido de fútbol ayer?", "esperado_id": null},
+    {"id": "B04", "tipo": "sin_respuesta", "pregunta": "¿Cuál es la contraseña del wifi de la tienda?", "esperado_id": null},
+    {"id": "B05", "tipo": "sin_respuesta", "pregunta": "¿Organizan cursos de cocina para niños?", "esperado_id": null},
+    {"id": "B06", "tipo": "sin_respuesta", "pregunta": "¿Cuál es el precio del dólar hoy?", "esperado_id": null},
+    {"id": "B07", "tipo": "sin_respuesta", "pregunta": "¿Aceptan mascotas dentro del local?", "esperado_id": null},
+    {"id": "B08", "tipo": "sin_respuesta", "pregunta": "¿Quién es el gerente general de la empresa?", "esperado_id": null}
+  ],
+  "casos_error": [
+    {"id": "E01", "descripcion": "Pregunta vacía", "cuerpo": {"pregunta": "   "}, "status_esperado": 400},
+    {"id": "E02", "descripcion": "JSON inválido", "cuerpo_crudo": "{pregunta: sin comillas", "status_esperado": 400},
+    {"id": "E03", "descripcion": "Pregunta demasiado larga (> 500 caracteres)", "cuerpo": {"pregunta": "LARGA"}, "status_esperado": 413}
+  ]
+}

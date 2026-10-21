@@ -1,0 +1,47 @@
+# ==================== CREDENCIALES (CRÍTICO) ====================
+# Nunca subir las credenciales temporales del Learner Lab ("AWS Details" → "AWS CLI")
+.aws/
+credentials
+credentials.*
+*credentials*
+config.aws
+aws_credentials*
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.ppk
+*.p12
+*secret*
+*token*
+labsuser*
+# Salidas del despliegue con IDs de cuenta / URLs (se regeneran con deploy.sh)
+infra/salidas.env
+frontend/config.js
+
+# ==================== Artefactos de build ====================
+*.zip
+build/
+dist/
+.aws-sam/
+cdk.out/
+.terraform/
+*.tfstate*
+
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ==================== Editor / SO ====================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp

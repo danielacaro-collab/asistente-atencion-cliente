@@ -1,0 +1,30 @@
+{
+  "_comentario": "Ejemplo de la política de recursos que queda en la Lambda tras el despliegue (para el anexo del informe). Reemplaza REGION, CUENTA y API_ID.",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "apigw-invoke",
+      "Effect": "Allow",
+      "Principal": {"Service": "apigateway.amazonaws.com"},
+      "Action": "lambda:InvokeFunction",
+      "Resource": "arn:aws:lambda:REGION:CUENTA:function:asistente-tecnohogar-fn",
+      "Condition": {"ArnLike": {"AWS:SourceArn": "arn:aws:execute-api:REGION:CUENTA:API_ID/*"}}
+    },
+    {
+      "Sid": "url-invoke-url",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "lambda:InvokeFunctionUrl",
+      "Resource": "arn:aws:lambda:REGION:CUENTA:function:asistente-tecnohogar-fn",
+      "Condition": {"StringEquals": {"lambda:FunctionUrlAuthType": "NONE"}}
+    },
+    {
+      "Sid": "url-invoke-function",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "lambda:InvokeFunction",
+      "Resource": "arn:aws:lambda:REGION:CUENTA:function:asistente-tecnohogar-fn",
+      "Condition": {"Bool": {"lambda:InvokedViaFunctionUrl": "true"}}
+    }
+  ]
+}

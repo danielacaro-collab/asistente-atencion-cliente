@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TecnoHogar · Asistente de atención</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app">
+    <header class="cabecera">
+      <div class="marca">
+        <span class="logo" aria-hidden="true">TH</span>
+        <div>
+          <h1>Asistente TecnoHogar</h1>
+          <p>Respuestas basadas solo en documentación autorizada</p>
+        </div>
+      </div>
+      <span id="ruta" class="ruta" title="Ruta usada en la última consulta">—</span>
+    </header>
+
+    <section id="chat" class="chat" aria-live="polite">
+      <div class="msg bot">
+        <p>¡Hola! Puedo ayudarte con devoluciones, garantías, horarios, sucursales, medios de pago, envíos, pedidos y reclamos.</p>
+      </div>
+    </section>
+
+    <div class="sugeridas" id="sugeridas">
+      <button type="button">¿A qué hora abren los sábados?</button>
+      <button type="button">¿Aceptan pagos con QR?</button>
+      <button type="button">¿Cuántos días tengo para devolver un producto?</button>
+      <button type="button">¿Tienen vacantes de trabajo?</button>
+    </div>
+
+    <form id="formulario" class="formulario" autocomplete="off">
+      <label for="pregunta" class="oculto">Escribe tu pregunta</label>
+      <input id="pregunta" name="pregunta" maxlength="500" placeholder="Escribe tu pregunta…" required>
+      <button id="enviar" type="submit">Enviar</button>
+    </form>
+    <footer class="pie">Proyecto Final · Computación en la Nube · UCB — empresa ficticia, datos sintéticos.</footer>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
