@@ -122,7 +122,7 @@ El .zip contiene solo los 5 archivos `.py` en la **raíz** (sin carpeta). No hay
 | `MAX_CARACTERES` | `500` |
 | `LOG_TTL_DIAS` | `30` |
 | `METRIC_NAMESPACE` | `AsistenteAtencionCliente` |
-| `ALLOWED_ORIGIN` | `http://asistente-tecnohogar-web-<CUENTA>.s3-website-us-east-1.amazonaws.com` |
+| `ALLOWED_ORIGIN` | `http://asistente-tecnohogar-web-3024.s3-website-us-east-1.amazonaws.com` |
 | `KB_CACHE_SEGUNDOS` | `300` |
 | `DEBUG_SIMILITUD` | `false` |
 
@@ -152,14 +152,14 @@ El .zip contiene solo los 5 archivos `.py` en la **raíz** (sin carpeta). No hay
 4. *Stages*: `$default` con **Auto-deploy** activado → **Next → Create**.
 5. **No configures CORS** en API Gateway: la Lambda devuelve las cabeceras CORS (una sola fuente de verdad, igual que para la URL de función).
 6. **Protect → Throttling → Edit** (default route throttling): *Rate* 5 · *Burst* 10 → **Save**.
-7. Copia el **Invoke URL** (`https://XXXX.execute-api.us-east-1.amazonaws.com`).
+7. Copia el **Invoke URL** (`https://7aiqvzz9bb.execute-api.us-east-1.amazonaws.com/`).
 
 La consola agrega automáticamente el permiso para que API Gateway invoque la Lambda (lo verás en Lambda → Configuration → Permissions → Resource-based policy).
 
 Prueba en CloudShell:
 
 ```bash
-curl -s -X POST https://XXXX.execute-api.us-east-1.amazonaws.com/preguntar \
+curl -s -X POST https://7aiqvzz9bb.execute-api.us-east-1.amazonaws.com/preguntar \
   -H 'Content-Type: application/json' -d '{"pregunta":"¿A qué hora abren los sábados?"}'
 ```
 
