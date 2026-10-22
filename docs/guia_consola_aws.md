@@ -46,7 +46,7 @@ Esta guía crea manualmente los mismos recursos que `infra/deploy.sh`. Úsala si
 1. **Create bucket** → `asistente-tecnohogar-web-<CUENTA>`.
 2. *Block Public Access*: **desmarca** "Block all public access" y confirma con la casilla de advertencia (solo este bucket será público, y solo para lectura).
 3. **Create bucket**.
-4. Pestaña **Properties** → *Static website hosting* → **Edit** → Enable · Host a static website · Index document `index.html` · Error document `index.html` → **Save**. Copia el **Bucket website endpoint** (`http://asistente-tecnohogar-web-<CUENTA>.s3-website-us-east-1.amazonaws.com`).
+4. Pestaña **Properties** → *Static website hosting* → **Edit** → Enable · Host a static website · Index document `index.html` · Error document `index.html` → **Save**. Copia el **Bucket website endpoint** (http://asistente-tecnohogar-web-3024.s3-website-us-east-1.amazonaws.com/).
 5. Pestaña **Permissions** → *Bucket policy* → **Edit** → pega `infra/politicas/bucket-policy-web.json` reemplazando `__WEB_BUCKET__` por el nombre del bucket → **Save**.
 6. (Los archivos del frontend se suben en el paso 6, cuando ya tengas las URLs de la API.)
 
@@ -74,7 +74,7 @@ Repite para cada tabla: **DynamoDB → Tables → Create table**.
 Opción recomendada (1 comando, desde **CloudShell**, icono `>_` en la barra superior):
 
 ```bash
-git clone https://github.com/<usuario>/asistente-atencion-cliente.git
+git clone https://github.com/danielacaro-collab/asistente-atencion-cliente.git
 cd asistente-atencion-cliente
 python3 scripts/cargar_base_conocimiento.py --tabla asistente-tecnohogar-kb
 ```

@@ -182,8 +182,8 @@
     "palabras_clave": ["reclamo", "queja", "libro de reclamaciones", "5 días hábiles"],
     "respuesta": "Registra tu reclamo en el Libro de Reclamaciones de cualquier sucursal o por correo a atencion@tecnohogar.example. Se te asigna un número de reclamo y respondemos en un máximo de 5 días hábiles.",
     "fuente": "documentos/04_procedimientos_envios_pedidos_reclamos.md#5-reclamos"
-  }
-     {
+  },
+  {
         "id": "INV-001",
         "categoria": "productos",
         "pregunta": "¿Cómo puedo saber si un producto está disponible?",

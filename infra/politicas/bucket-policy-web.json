@@ -6,7 +6,7 @@
       "Effect": "Allow",
       "Principal": "*",
       "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::__WEB_BUCKET__/*"
+      "Resource": "arn:aws:s3:::asistente-tecnohogar-web-3024/*"
     }
   ]
 }
