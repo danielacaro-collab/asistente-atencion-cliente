@@ -15,9 +15,9 @@
 - **Centro de Servicio Técnico:** Av. Cristo Redentor N.º 1450 (no vende productos, solo reparaciones y garantías).
 
 ## 3. Canales de contacto
-- **WhatsApp de atención al cliente:** +591 70000000 (número ficticio), lunes a sábado de 08:00 a 21:00.
-- **Correo electrónico:** atencion@tecnohogar.example
-- **Línea gratuita:** 800-10-0000 (ficticia).
+- **WhatsApp de atención al cliente:** +591 70496523, lunes a sábado de 08:30 a 20:00.
+- **Correo electrónico:** atencion@tecnohogar.com.bo
+- **Línea gratuita:** 800-10-0000
 - La atención por WhatsApp y correo responde en un máximo de **24 horas hábiles**.
 
 ## 4. Estacionamiento

@@ -1,11 +1,11 @@
 # Asistente inteligente de atención al cliente — Reto 02
 
 **Proyecto Final · Computación en la Nube · Universidad Católica Boliviana**
-Autora: [Nombre completo] · daniela.caro@ucb.edu.bo · Video de respaldo: [enlace]
+Autora: Daniela Alejandra Caro Arrazola · daniela.caro@ucb.edu.bo · Video de respaldo: [enlace]
 
 Asistente web que responde consultas frecuentes de clientes (productos, políticas, horarios y procedimientos) **solo con base en documentación autorizada**, usando búsqueda por similitud de texto implementada en Python. Cuando la documentación no contiene la respuesta, lo reconoce, lo informa al usuario y registra la consulta para que el equipo la revise.
 
-> La empresa **TecnoHogar S.R.L.** y todos sus datos son **ficticios y sintéticos**, creados para este proyecto.
+> La empresa **Liberate S.A.** y todos sus datos son **ficticios y sintéticos**, creados para este proyecto.
 
 ---
 

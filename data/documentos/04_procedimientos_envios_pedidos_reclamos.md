@@ -3,7 +3,7 @@
 > Documento sintético (empresa ficticia). Versión 1.0 — vigente desde el 01/10/2026.
 
 ## 1. Envíos a domicilio
-- **Dentro de Santa Cruz de la Sierra:** envío gratuito en compras mayores a Bs 500; en compras menores cuesta Bs 30. Plazo de entrega: **24 a 48 horas**.
+- **Dentro de Santa Cruz de la Sierra:** envío gratuito en compras mayores a Bs 1000; en compras menores cuesta Bs 30. Plazo de entrega: **24 a 48 horas**.
 - **A otros departamentos de Bolivia:** por empresa de encomiendas, costo según peso; plazo de **3 a 5 días hábiles**.
 - Los productos grandes (refrigeradores, lavadoras) se entregan en planta baja; la instalación se cotiza aparte.
 - No se realizan envíos internacionales.

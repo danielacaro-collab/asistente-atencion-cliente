@@ -1,6 +1,6 @@
 # Borrador del informe técnico (PDF)
 
-> Archivo final: **`PF_R02_AlejandraCaroArrazolaDaniela.pdf`** · Carta o A4 · letra 11 pt · **máx. 12 páginas** sin anexos.
+> Archivo final: **`PF_R02_CaroArrazolaDanielaAlejandra.pdf`** · Carta o A4 · letra 11 pt · **máx. 12 páginas** sin anexos.
 > Los textos entre `[corchetes]` se completan después de desplegar. Las 📸 remiten a las capturas de `docs/guia_consola_aws.md` (región y fecha visibles).
 > Extensión objetivo por sección según la rúbrica entre paréntesis.
 
@@ -10,9 +10,9 @@
 
 - **Universidad Católica Boliviana** — Computación en la Nube — Proyecto Final
 - **Reto 02: Asistente inteligente de atención al cliente**
-- Estudiante: [Nombre completo] · daniela.caro@ucb.edu.bo
-- Fecha: [dd/mm/2026]
-- Repositorio: [https://github.com/usuario/asistente-atencion-cliente]
+- Estudiante: Daniela Alejandra Caro Arrazola · daniela.caro@ucb.edu.bo
+- Fecha: [23/10/2026]
+- Repositorio: [https://github.com/danielacaro-collab/asistente-atencion-cliente/]
 - Video de respaldo: [enlace no listado YouTube / Drive con acceso UCB]
 - (Opcional) miniatura del diagrama de arquitectura.
 
@@ -20,7 +20,7 @@
 
 ## 1. Resumen ejecutivo (½ pág.) — *Problema de negocio*
 
-TecnoHogar, una cadena (ficticia) de tiendas de electrodomésticos y tecnología, recibe todos los días las mismas preguntas: horarios, devoluciones, garantías, medios de pago y envíos. Responderlas una por una ocupa el tiempo del personal y, cuando cada persona responde a su manera, el cliente recibe información inconsistente.
+TecnoHogar, una cadena de tiendas de electrodomésticos y tecnología, recibe todos los días las mismas preguntas: horarios, devoluciones, garantías, medios de pago y envíos. Responderlas una por una ocupa el tiempo del personal y, cuando cada persona responde a su manera, el cliente recibe información inconsistente.
 
 Se construyó un **asistente web** que contesta estas preguntas al instante **usando únicamente la documentación oficial de la empresa**. Cada respuesta indica de qué documento proviene. Cuando la pregunta no está cubierta por la documentación, el asistente **no inventa**: lo dice con claridad, ofrece los canales de contacto humano y guarda la pregunta para que el equipo decida si debe documentarla.
 

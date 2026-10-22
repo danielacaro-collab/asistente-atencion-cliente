@@ -27,8 +27,8 @@
     "id": "CAM-001", "categoria": "politicas",
     "pregunta": "¿Puedo cambiar un producto por otro modelo o color?",
     "variantes": ["¿Cuánto tiempo tengo para hacer un cambio?", "Quiero cambiar mi compra por otro color", "¿Aceptan cambios de producto?"],
-    "palabras_clave": ["cambio", "modelo", "color", "talla", "15 días", "nota de crédito"],
-    "respuesta": "Sí. Los cambios por talla, color o modelo se aceptan dentro de los 15 días calendario, según disponibilidad de stock. Si el nuevo producto cuesta más pagas la diferencia; si cuesta menos, se emite una nota de crédito.",
+    "palabras_clave": ["cambio", "modelo", "color", "talla", "3 días", "nota de crédito"],
+    "respuesta": "Sí. Los cambios por talla, color o modelo se aceptan dentro de los 3 días calendario, según disponibilidad de stock. Si el nuevo producto cuesta más pagas la diferencia; si cuesta menos, se emite una nota de crédito.",
     "fuente": "documentos/01_politicas_devoluciones_garantias.md#2-cambios"
   },
   {
@@ -100,7 +100,7 @@
     "pregunta": "¿Cómo me comunico con atención al cliente?",
     "variantes": ["¿Cuál es el número de WhatsApp?", "¿Tienen correo electrónico de contacto?", "¿Hay una línea gratuita?"],
     "palabras_clave": ["contacto", "WhatsApp", "correo", "línea gratuita", "24 horas"],
-    "respuesta": "WhatsApp +591 70000000 (lunes a sábado de 08:00 a 21:00), correo atencion@tecnohogar.example o la línea gratuita 800-10-0000. Respondemos por WhatsApp y correo en un máximo de 24 horas hábiles.",
+    "respuesta": "WhatsApp +591 70496523 (lunes a sábado de 08:00 a 21:00), correo atencion@tecnohogar.com.bo o la línea gratuita 800-10-0000. Respondemos por WhatsApp y correo en un máximo de 24 horas hábiles.",
     "fuente": "documentos/02_horarios_sucursales_contacto.md#3-canales-de-contacto"
   },
   {
@@ -116,15 +116,15 @@
     "pregunta": "¿Qué medios de pago aceptan?",
     "variantes": ["¿Puedo pagar con QR?", "¿Aceptan tarjeta de crédito?", "¿Aceptan cheques o criptomonedas?", "¿Cómo puedo pagar?"],
     "palabras_clave": ["pago", "efectivo", "Visa", "Mastercard", "QR", "transferencia"],
-    "respuesta": "Aceptamos efectivo (solo en sucursales), tarjetas de débito y crédito Visa y Mastercard, pago con código QR de cualquier banco boliviano y transferencia bancaria para empresas con cotización previa. No aceptamos cheques ni criptomonedas.",
+    "respuesta": "Aceptamos efectivo (solo en sucursales), tarjetas de débito y crédito Visa y Mastercard, pago con código QR de cualquier banco boliviano y transferencia bancaria para empresas con cotización previa, aceptamos criptomonedas. No aceptamos cheques.",
     "fuente": "documentos/03_productos_precios_pagos.md#3-medios-de-pago-aceptados"
   },
   {
     "id": "PAG-002", "categoria": "productos",
     "pregunta": "¿Puedo pagar en cuotas sin intereses?",
     "variantes": ["¿Tienen financiamiento o crédito?", "¿Venden a crédito?", "¿Qué necesito para el crédito directo?"],
-    "palabras_clave": ["cuotas", "sin intereses", "crédito directo", "1.500"],
-    "respuesta": "Con tarjetas de crédito de bancos aliados puedes pagar en 3, 6 o 12 cuotas sin intereses en compras mayores a Bs 1.500. El crédito directo de TecnoHogar requiere carnet de identidad, factura de luz y una boleta de pago reciente; la aprobación tarda 48 horas.",
+    "palabras_clave": ["cuotas", "sin intereses", "crédito directo", "2.000"],
+    "respuesta": "Con tarjetas de crédito de bancos aliados puedes pagar en 3, 6 o 12 cuotas sin intereses en compras mayores a Bs 2.000. El crédito directo de TecnoHogar requiere carnet de identidad, factura de luz y una boleta de pago reciente; la aprobación tarda 48 horas.",
     "fuente": "documentos/03_productos_precios_pagos.md#4-compras-en-cuotas"
   },
   {
@@ -139,8 +139,8 @@
     "id": "ENV-001", "categoria": "procedimientos",
     "pregunta": "¿Cuánto cuesta el envío a domicilio y cuánto tarda?",
     "variantes": ["¿Hacen delivery en Santa Cruz?", "¿El envío es gratis?", "¿En cuántos días llega mi pedido?"],
-    "palabras_clave": ["envío", "domicilio", "gratis", "Bs 500", "24 a 48 horas"],
-    "respuesta": "Dentro de Santa Cruz de la Sierra el envío es gratuito en compras mayores a Bs 500; en compras menores cuesta Bs 30. La entrega tarda de 24 a 48 horas.",
+    "palabras_clave": ["envío", "domicilio", "gratis", "Bs 1000", "24 a 48 horas"],
+    "respuesta": "Dentro de Santa Cruz de la Sierra el envío es gratuito en compras mayores a Bs 1000; en compras menores cuesta Bs 30. La entrega tarda de 24 a 48 horas.",
     "fuente": "documentos/04_procedimientos_envios_pedidos_reclamos.md#1-envios-a-domicilio"
   },
   {
@@ -183,4 +183,196 @@
     "respuesta": "Registra tu reclamo en el Libro de Reclamaciones de cualquier sucursal o por correo a atencion@tecnohogar.example. Se te asigna un número de reclamo y respondemos en un máximo de 5 días hábiles.",
     "fuente": "documentos/04_procedimientos_envios_pedidos_reclamos.md#5-reclamos"
   }
+     {
+        "id": "INV-001",
+        "categoria": "productos",
+        "pregunta": "¿Cómo puedo saber si un producto está disponible?",
+        "variantes": [
+            "¿Tienen stock de este producto?",
+            "¿Hay disponibilidad en sucursales?",
+            "¿Puedo consultar el inventario?"
+        ],
+        "palabras_clave": ["stock", "inventario", "disponibilidad"],
+        "respuesta": "La disponibilidad puede variar entre sucursales y la tienda en línea. Puedes consultar por nombre, marca o modelo. El stock debe confirmarse antes de realizar el pago.",
+        "fuente": "#1-disponibilidad-de-productos"
+    },
+    {
+        "id": "INV-002",
+        "categoria": "productos",
+        "pregunta": "¿Puedo encargar un producto agotado?",
+        "variantes": [
+            "¿Cuándo volverá a estar disponible?",
+            "¿Puedo reservar un producto sin stock?"
+        ],
+        "palabras_clave": ["agotado", "encargo", "reserva"],
+        "respuesta": "Los productos agotados pueden solicitarse por encargo, sujetos a confirmación del proveedor.",
+        "fuente": "#1-disponibilidad-de-productos"
+    },
+    {
+        "id": "PRO-001",
+        "categoria": "productos",
+        "pregunta": "¿Las promociones son acumulables?",
+        "variantes": [
+            "¿Puedo utilizar dos descuentos?",
+            "¿Las ofertas tienen fecha de vencimiento?",
+            "¿Las promociones dependen del stock?"
+        ],
+        "palabras_clave": ["promociones", "descuentos", "ofertas"],
+        "respuesta": "Las promociones tienen vigencia definida y están sujetas a stock. Los descuentos no son acumulables, salvo indicación expresa.",
+        "fuente":"#2-promociones-y-descuentos"
+    },
+    {
+        "id": "CRI-001",
+        "categoria": "productos",
+        "pregunta": "¿Cómo puedo pagar con criptomonedas?",
+        "variantes": [
+            "¿Aceptan pagos con cripto?",
+            "¿Puedo pagar con Bitcoin?",
+            "¿Qué criptomonedas aceptan?"
+        ],
+        "palabras_clave": ["cripto", "criptomonedas", "blockchain", "pago"],
+        "respuesta": "Aceptamos criptomonedas previamente autorizadas. La moneda, red de transferencia y tipo de cambio deben confirmarse antes del pago.",
+        "fuente": "#3-pagos-con-criptomonedas"
+    },
+    {
+        "id": "CRI-002",
+        "categoria": "productos",
+        "pregunta": "¿Cómo se confirma un pago con criptomonedas?",
+        "variantes": [
+            "¿Cuándo confirman mi pago cripto?",
+            "¿Quién paga la comisión blockchain?",
+            "¿Cuándo se confirma mi pedido?"
+        ],
+        "palabras_clave": ["confirmación", "blockchain", "comisión", "red"],
+        "respuesta": "El pedido se confirma después de validar la recepción del pago. El cliente asume las comisiones de la red blockchain.",
+        "fuente": "#3-pagos-con-criptomonedas"
+    },
+    {
+        "id": "INS-001",
+        "categoria": "procedimientos",
+        "pregunta": "¿Ofrecen instalación de electrodomésticos?",
+        "variantes": [
+            "¿Instalan aires acondicionados?",
+            "¿La instalación está incluida?",
+            "¿Instalan lavadoras?"
+        ],
+        "palabras_clave": ["instalación", "electrodomésticos", "servicio"],
+        "respuesta": "Ofrecemos instalación para determinados electrodomésticos. El servicio se cotiza por separado y debe programarse previamente.",
+        "fuente": "#4-instalacion-y-servicios"
+    },
+    {
+        "id": "SEG-001",
+        "categoria": "politicas",
+        "pregunta": "¿Cómo protegen mis datos personales?",
+        "variantes": [
+            "¿Mis datos están seguros?",
+            "¿Para qué utilizan mis datos?",
+            "¿Comparten mi información?"
+        ],
+        "palabras_clave": ["privacidad", "datos", "seguridad"],
+        "respuesta": "Los datos personales se utilizan para gestionar compras, entregas, facturación y atención posventa. No se divulgan a personas no autorizadas.",
+        "fuente": "#5-seguridad-y-proteccion-de-datos"
+    },
+    {
+        "id": "SEG-002",
+        "categoria": "politicas",
+        "pregunta": "¿Me solicitarán contraseñas o códigos bancarios?",
+        "variantes": [
+            "¿Debo compartir mi PIN?",
+            "¿Puedo enviar mi contraseña por WhatsApp?",
+            "¿Es seguro compartir mi código bancario?"
+        ],
+        "palabras_clave": ["contraseña", "PIN", "seguridad", "banco"],
+        "respuesta": "TecnoHogar nunca solicita contraseñas, PIN bancarios ni códigos de verificación por WhatsApp o correo electrónico.",
+        "fuente": "#5-seguridad-y-proteccion-de-datos"
+    },
+    {
+        "id": "BOT-001",
+        "categoria": "procedimientos",
+        "pregunta": "¿Qué consultas puede responder el asistente virtual?",
+        "variantes": [
+            "¿En qué puede ayudarme el chatbot?",
+            "¿Qué información proporciona el bot?"
+        ],
+        "palabras_clave": ["chatbot", "asistente", "ayuda"],
+        "respuesta": "El asistente proporciona información sobre productos, pagos, sucursales, horarios, garantías, devoluciones y procedimientos de compra.",
+        "fuente": "#6-atencion-mediante-asistente-virtual"
+    },
+    {
+        "id": "BOT-002",
+        "categoria": "procedimientos",
+        "pregunta": "¿El asistente puede modificar o cancelar mi pedido?",
+        "variantes": [
+            "¿Puedes cambiar mi pedido?",
+            "¿Puedes aprobar mi devolución?",
+            "¿Puedes autorizar un descuento?"
+        ],
+        "palabras_clave": ["modificar", "pedido", "autorización"],
+        "respuesta": "El asistente puede explicar los procedimientos, pero no modificar pedidos, aprobar devoluciones ni autorizar descuentos sin validación del sistema correspondiente.",
+        "fuente": "#6-atencion-mediante-asistente-virtual"
+    },
+    {
+        "id": "COR-001",
+        "categoria": "productos",
+        "pregunta": "¿Realizan ventas para empresas?",
+        "variantes": [
+            "¿Venden al por mayor?",
+            "¿Ofrecen descuentos corporativos?",
+            "¿Puedo solicitar una cotización empresarial?"
+        ],
+        "palabras_clave": ["empresas", "corporativo", "mayorista"],
+        "respuesta": "Atendemos compras corporativas. Las cotizaciones pueden incluir descuentos por volumen, sujetos a evaluación comercial.",
+        "fuente": "#7-compras-corporativas"
+    },
+    {
+        "id": "COR-002",
+        "categoria": "productos",
+        "pregunta": "¿Qué necesito para solicitar una cotización empresarial?",
+        "variantes": [
+            "¿Cómo cotizo varios productos?",
+            "¿Qué información necesita una empresa?"
+        ],
+        "palabras_clave": ["cotización", "empresa", "cantidades"],
+        "respuesta": "Debes indicar los productos, cantidades y datos de facturación. Las condiciones de pago y entrega se confirman antes de la compra.",
+        "fuente": "#7-compras-corporativas"
+    },
+    {
+        "id": "ASE-001",
+        "categoria": "productos",
+        "pregunta": "¿Pueden recomendarme un producto según mi presupuesto?",
+        "variantes": [
+            "¿Qué laptop me recomiendan?",
+            "¿Me ayudan a elegir un electrodoméstico?",
+            "¿Pueden comparar productos?"
+        ],
+        "palabras_clave": ["recomendación", "comparación", "presupuesto"],
+        "respuesta": "Podemos orientar tu elección según presupuesto y necesidades, utilizando características técnicas verificadas. Para consultas especializadas puedes solicitar un asesor.",
+        "fuente": "#8-asesoramiento-de-productos"
+    },
+    {
+        "id": "BOT-003",
+        "categoria": "procedimientos",
+        "pregunta": "¿Qué sucede si el asistente no conoce la respuesta?",
+        "variantes": [
+            "¿Puedo hablar con una persona?",
+            "¿Qué hago si el chatbot no puede ayudarme?",
+            "¿Cómo contacto con un asesor?"
+        ],
+        "palabras_clave": ["asesor", "humano", "ayuda", "derivación"],
+        "respuesta": "Si no disponemos de información confirmada, puedes contactar a WhatsApp +591 70496523 o escribir a atencion@tecnohogar.com.bo.",
+        "fuente": "#9-consultas-no-contempladas"
+    },
+    {
+        "id": "BOT-004",
+        "categoria": "procedimientos",
+        "pregunta": "¿Qué información utiliza el asistente para responder?",
+        "variantes": [
+            "¿De dónde obtiene sus respuestas?",
+            "¿La información está actualizada?",
+            "¿Qué ocurre si hay políticas contradictorias?"
+        ],
+        "palabras_clave": ["fuentes", "documentación", "actualización"],
+        "respuesta": "El asistente utiliza la base de conocimiento autorizada. Ante contradicciones debe priorizar la documentación oficial vigente y no inventar información.",
+        "fuente": "#10-consistencia-y-actualizacion"
+    }
 ]

@@ -10,7 +10,7 @@
 - El reembolso se realiza por el **mismo medio de pago** usado en la compra, en un plazo de hasta **5 días hábiles** tras la aprobación.
 
 ## 2. Cambios
-- Los cambios por talla, color o modelo se aceptan dentro de los **15 días calendario**, sujetos a disponibilidad de stock.
+- Los cambios por talla, color o modelo se aceptan dentro de los **3 días calendario**, sujetos a disponibilidad de stock.
 - Si el nuevo producto tiene un precio mayor, el cliente paga la diferencia; si es menor, se emite una nota de crédito.
 
 ## 3. Garantía
