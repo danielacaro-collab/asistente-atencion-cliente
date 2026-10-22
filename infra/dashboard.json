@@ -4,9 +4,9 @@
       "type": "metric", "x": 0, "y": 0, "width": 12, "height": 6,
       "properties": {
         "title": "Consultas por resultado",
-        "region": "__REGION__", "view": "timeSeries", "stacked": true, "stat": "Sum", "period": 300,
+        "region": "us-east-1", "view": "timeSeries", "stacked": true, "stat": "Sum", "period": 300,
         "metrics": [
-          ["__NAMESPACE__", "Respondidas", "Servicio", "asistente"],
+          ["AsistenteAtencionCliente", "Respondidas", "Servicio", "asistente"],
           [".", "SinRespuesta", ".", "."],
           [".", "Rechazadas", ".", "."]
         ]
@@ -16,9 +16,9 @@
       "type": "metric", "x": 12, "y": 0, "width": 12, "height": 6,
       "properties": {
         "title": "Score de similitud promedio y latencia",
-        "region": "__REGION__", "view": "timeSeries", "period": 300,
+        "region": "us-east-1", "view": "timeSeries", "period": 300,
         "metrics": [
-          ["__NAMESPACE__", "ScoreSimilitud", "Servicio", "asistente", {"stat": "Average"}],
+          ["AsistenteAtencionCliente", "ScoreSimilitud", "Servicio", "asistente", {"stat": "Average"}],
           [".", "LatenciaMs", ".", ".", {"stat": "p90", "yAxis": "right"}]
         ]
       }
@@ -27,9 +27,9 @@
       "type": "metric", "x": 0, "y": 6, "width": 12, "height": 6,
       "properties": {
         "title": "Lambda: invocaciones, errores y throttles",
-        "region": "__REGION__", "view": "timeSeries", "stat": "Sum", "period": 300,
+        "region": "us-east-1", "view": "timeSeries", "stat": "Sum", "period": 300,
         "metrics": [
-          ["AWS/Lambda", "Invocations", "FunctionName", "__LAMBDA__"],
+          ["AWS/Lambda", "Invocations", "FunctionName", "asistente-tecnohogar-fn"],
           [".", "Errors", ".", "."],
           [".", "Throttles", ".", "."]
         ]
@@ -39,8 +39,8 @@
       "type": "log", "x": 12, "y": 6, "width": 12, "height": 6,
       "properties": {
         "title": "Últimas consultas sin respuesta",
-        "region": "__REGION__", "view": "table",
-        "query": "SOURCE '/aws/lambda/__LAMBDA__' | fields @timestamp, Estado, ScoreSimilitud, Origen | filter Estado = 'sin_respuesta' or Estado = 'sugerencia' | sort @timestamp desc | limit 20"
+        "region": "us-east-1", "view": "table",
+        "query": "SOURCE '/aws/lambda/asistente-tecnohogar-fn' | fields @timestamp, Estado, ScoreSimilitud, Origen | filter Estado = 'sin_respuesta' or Estado = 'sugerencia' | sort @timestamp desc | limit 20"
       }
     }
   ]
