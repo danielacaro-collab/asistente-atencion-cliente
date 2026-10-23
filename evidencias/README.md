@@ -33,3 +33,6 @@ Esta carpeta guarda las capturas y resultados de las pruebas. **Revisa cada capt
 | E1 | `E1_prueba_aceptacion.png` | Terminal con el resumen 25/25 |
 | E2 | `E2_limite_429.png` | Bucle `curl` mostrando 200 … 429 |
 | E3 | `E3_consultas_sin_respuesta.png` | Tabla `consultas` filtrada por estado |
+
+## Evidencias tomadas en AWS (22/10/2026)
+La carpeta `aws/` contiene las 17 capturas del despliegue real y `aws/RESULTADOS_AWS.md` con el resumen de resultados: prueba de aceptación 25/25 por API Gateway y por la URL de función, límite de uso (30 × 200, 5 × 429), Logs Insights y consumo del Learner Lab (US$ 0).

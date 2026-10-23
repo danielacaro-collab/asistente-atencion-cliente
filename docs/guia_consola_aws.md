@@ -79,9 +79,9 @@ cd asistente-atencion-cliente
 python3 scripts/cargar_base_conocimiento.py --tabla asistente-tecnohogar-kb
 ```
 
-Alternativa manual: tabla `kb` → **Explore table items** → **Create item** → *JSON view* (desactiva "View DynamoDB JSON") → pega una entrada del JSON → **Create item**. (Son 23 entradas; solo recomendable para mostrar el formato.)
+Alternativa manual: tabla `kb` → **Explore table items** → **Create item** → *JSON view* (desactiva "View DynamoDB JSON") → pega una entrada del JSON → **Create item**. (Son 38 entradas; solo recomendable para mostrar el formato.)
 
-📸 *Captura 3*: lista de las 3 tablas en estado *Active*. *Captura 4*: Explore items de `kb` con las 23 entradas.
+📸 *Captura 3*: lista de las 3 tablas en estado *Active*. *Captura 4*: Explore items de `kb` con las 38 entradas.
 
 ---
 

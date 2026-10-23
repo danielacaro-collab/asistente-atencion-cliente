@@ -57,7 +57,7 @@ asistente-atencion-cliente/
 │   └── config.example.js            # plantilla; deploy.sh genera config.js
 ├── data/
 │   ├── documentos/*.md              # documentación autorizada (sintética)
-│   ├── base_conocimiento.json       # 23 entradas pregunta/respuesta con su fuente
+│   ├── base_conocimiento.json       # 38 entradas pregunta/respuesta con su fuente
 │   └── casos_prueba.json            # casos de la prueba de aceptación y de error
 ├── infra/
 │   ├── config.env                   # nombres de recursos y parámetros (sin secretos)

@@ -65,7 +65,7 @@ caja(70, 30, 34, 30, C["lambda"], "AWS Lambda (Python 3.12)",
 caja(70, 66, 34, 12, C["iam"], "IAM — LabRole", "Rol de ejecución de la Lambda\nsin claves en el código")
 
 # DynamoDB
-caja(118, 62, 36, 16, C["ddb"], "DynamoDB — kb", "Base de conocimiento\n23 entradas pregunta/respuesta\n(fuente principal)")
+caja(118, 62, 36, 16, C["ddb"], "DynamoDB — kb", "Base de conocimiento\n38 entradas pregunta/respuesta\n(fuente principal)")
 caja(118, 40, 36, 16, C["ddb"], "DynamoDB — consultas", "Registro de cada consulta\nestado · score · hash cliente\nTTL 30 días")
 caja(118, 22, 36, 13, C["ddb"], "DynamoDB — limites", "Contador por cliente/minuto\nTTL 2 min")
 # S3 docs
